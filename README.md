@@ -121,9 +121,9 @@ end
 ### Method request
 ```swift
 // Call XMLRPC service with the sharedManager of Alamofire
-AlamofireXMLRPC.request("https://xmlrpcservice", method:"foo" parameters: [1,2.0,"ddd",["key":"value"]])
+AlamofireXMLRPC.request("https://xmlrpcservice", method:"foo" , parameters: [1,2.0,"ddd",["key":"value"]])
 // Call XMLRPC service with your custom manager
-manager.requestXMLRPC("https://xmlrpcservice", method:"foo" parameters: [1,2.0,"ddd",["key":"value"]])
+manager.requestXMLRPC("https://xmlrpcservice", method:"foo" , parameters: [1,2.0,"ddd",["key":"value"]])
 ```
 
 ### XMLRPC Request convertible
